@@ -1,0 +1,67 @@
+.wrapper{
+	background-color: cadetblue;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+
+.address,
+.socials,
+.subscription{
+	width: 100%;
+	min-width: 280px;
+	max-width: 300px;
+	padding: 5px 15px;
+}
+.address{
+	
+}
+.text{
+	padding-left: 10px;
+}
+.content{
+	text-align: left;
+}
+.twitter,
+.linkedin,
+.facebook,
+.instagram{
+	position: relative;
+	display: inline-block;
+	width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #333;
+	fill: white;
+	transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.twitter use,
+.linkedin use,
+.facebook use,
+.instagram use{
+min-width: 44px;
+min-height: 44px;
+
+}
+.twitter:hover,
+.linkedin:hover,
+.facebook:hover,
+.instagram:hover{
+	background-color: antiquewhite;
+	fill: aqua;
+}
+.flexSocial{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5px;
+}
+.flexSub{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
