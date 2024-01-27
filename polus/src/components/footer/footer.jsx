@@ -11,6 +11,8 @@ export const Footer = () => {
             <div className={s.content}>
               <p className={s.text}>вул. 12 Поздовжня, 63.</p>
               <p className={s.text}>54028, м. Миколаїв.</p>
+							<p className={s.text}>абонентська скринька : 174</p>
+							<br/>
               <p className={s.text}>тел.: +380(512)71-16-90</p>
               <p className={s.text}>e-mail: sales@polus-ug.mk.ua</p>
             </div>
@@ -22,7 +24,8 @@ export const Footer = () => {
                 <li>
                   <a href="https://about.instagram.com/">
                     <svg className={s.instagram}>
-										<use href="./images/icon/m-defs.svg#s-instagram"></use>
+										{/* <use href="./images/icon/m-defs.svg#s-instagram"></use> */}
+										<use href="./icon/defs.svg#s-instagram"></use>
                     </svg>
                   </a>
                 </li>
@@ -30,7 +33,7 @@ export const Footer = () => {
                 <li>
                   <a href="https://twitter.com/">
                     <svg className={s.twitter}>
-                      <use href="./images/icon/defs.svg#s-twitter"></use>
+                      <use href="./icon/defs.svg#s-twitter"></use>
                     </svg>
                   </a>
                 </li>
@@ -38,7 +41,7 @@ export const Footer = () => {
                 <li>
                   <a href="https://www.facebook.com/">
                     <svg className={s.facebook}>
-                      <use href="./images/icon/defs.svg#s-facebook"></use>
+                      <use href="./icon/defs.svg#s-facebook"></use>
                     </svg>
                   </a>
                 </li>
@@ -46,7 +49,7 @@ export const Footer = () => {
                 <li>
                   <a href="https://www.linkedin.com/">
                     <svg className={s.linkedin}>
-                      <use href="./images/icon/defs.svg#s-linkedin"></use>
+                      <use href="./icon/defs.svg#s-linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -59,18 +62,18 @@ export const Footer = () => {
 						<div className={s.flexSub}>
 
               <input
-                className="name"
+                className={s.name}
                 type="text"
                 name="name"
                 placeholder="ваше имя"
               />
               <input
-                className="email"
+                className={s.email}
                 type="email"
                 name="email"
                 placeholder="info@devstudio.com"
               />
-              <button>подписаться</button>
+              <button className={s.btnSubmit} type="submit">подписаться</button>
 						</div>
               <p></p>
             </form>
