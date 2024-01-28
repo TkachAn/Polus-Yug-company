@@ -1,0 +1,25 @@
+.wrapper{
+	width: 100%;
+	background-color: cadetblue;
+	padding: 2rem 0;
+	position: fixed;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.section{
+	min-width: 27.0rem;
+	max-width: 30.0rem;
+}
+.flexNav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1.0rem;
+	font-size: 1.2rem;
+}
+.item{
+
+}
