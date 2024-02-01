@@ -4,27 +4,28 @@ export const Footer = () => {
   return (
     <footer className={s.wrapper}>
       <div className="container">
-        {/* <h1 className={s.h1}>Footer</h1> */}
         <div className={s.flex}>
           <section className={s.address}>
-            <h2>address</h2>
+            <h2>наші контакти</h2>
             <div className={s.content}>
-              <p className={s.text}>вул. 12 Поздовжня, 63.</p>
-              <p className={s.text}>54028, м. Миколаїв.</p>
-							<p className={s.text}>абонентська скринька : 174</p>
-							<br/>
+							<p className={s.text_left}>наша адреса</p>
+              <p className={s.text}> 12<sup className={s.downIndex}>та</sup> Поздовжня, 63, Миколаїв</p>
+              {/* <p className={s.text}>54028, м. Миколаїв.</p> */}
+							{/* <p className={s.text}>абонентська скринька : 174</p> */}
+							<hr/>
+							<p className={s.text_left}>наші засоби зв'язку</p>
               <p className={s.text}>тел.: +380(512)71-16-90</p>
               <p className={s.text}>e-mail: sales@polus-ug.mk.ua</p>
             </div>
           </section>
           <section className={s.socials}>
-            <h2>socials</h2>
+            <h2>Приєднуйтесь до нас</h2>
             <div className={s.content}>
+							<hr/><br/>
               <ul className={s.flexSocial}>
                 <li>
                   <a href="https://about.instagram.com/">
                     <svg className={s.instagram}>
-										{/* <use href="./images/icon/m-defs.svg#s-instagram"></use> */}
 										<use href="./icon/defs.svg#s-instagram"></use>
                     </svg>
                   </a>
