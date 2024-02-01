@@ -1,19 +1,26 @@
+@import-normalize;
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
+body {
+  min-height: 100%;
+}
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
-	background-repeat: no-repeat;
-	text-decoration: none;
-	/* background-position: center; */
+  box-sizing: inherit;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  /* background-position: center; */
 }
 
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
+section,
+article,
 use,
 svg,
 html,
@@ -24,21 +31,23 @@ li,
 dl,
 dt,
 dd,
+div,
 p {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 img {
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
-	margin: 0;
+h5,
+h6 {
+  margin: 0;
 }
