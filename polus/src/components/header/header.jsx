@@ -25,7 +25,7 @@ export const Header = () => {
                   <a href="/products">products</a>
                 </li>
                 <li className={s.nav_item}>
-                  <a href="/downloads">hdownloads</a>
+                  <a href="/downloads">downloads</a>
                 </li>
                 <li className={s.nav_item}>
                   <a href="/about">abuot us</a>
