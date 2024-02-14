@@ -2,7 +2,7 @@
   "name": "polus",
   "version": "0.1.0",
   "author": ["Drey", "TkachAn"],
-  "homepage": "https://TkachAn.github.io/Polus-Yug-company/polus/",
+  "homepage": "https://TkachAn.github.io/Polus-Yug-company",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.2",
