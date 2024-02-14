@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Polus-Yug-company/static/css/main.3b84a26f.css",
-    "main.js": "/Polus-Yug-company/static/js/main.bad86229.js",
+    "main.js": "/Polus-Yug-company/static/js/main.2acc9a68.js",
     "static/js/496.f959b9ec.chunk.js": "/Polus-Yug-company/static/js/496.f959b9ec.chunk.js",
     "index.html": "/Polus-Yug-company/index.html",
     "main.3b84a26f.css.map": "/Polus-Yug-company/static/css/main.3b84a26f.css.map",
-    "main.bad86229.js.map": "/Polus-Yug-company/static/js/main.bad86229.js.map",
+    "main.2acc9a68.js.map": "/Polus-Yug-company/static/js/main.2acc9a68.js.map",
     "496.f959b9ec.chunk.js.map": "/Polus-Yug-company/static/js/496.f959b9ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b84a26f.css",
-    "static/js/main.bad86229.js"
+    "static/js/main.2acc9a68.js"
   ]
 }
