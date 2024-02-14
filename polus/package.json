@@ -1,10 +1,7 @@
 {
   "name": "polus",
   "version": "0.1.0",
-  "author": [
-    "Drey",
-    "TkachAn"
-  ],
+  "author": ["Drey", "TkachAn"],
   "homepage": "https://TkachAn.github.io/Polus-Yug-company/polus/",
   "private": true,
   "dependencies": {
